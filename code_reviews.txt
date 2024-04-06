@@ -1,1 +1,8 @@
+1. What concepts are similar between the companies (List at least two)? What are some key differences (List at least two)? In general, what items should be present in a code review checklist for a development team?
 
+Similarities:
+1. Both provide tips and suggestions
+2. 
+Differences:
+1. Microsofts golden rule is respecting others
+2. Yelp focuses more on the actual action of reviewing
