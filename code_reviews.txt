@@ -1,20 +1,20 @@
 1. What concepts are similar between the companies (List at least two)? What are some key differences (List at least two)? In general, what items should be present in a code review checklist for a development team?
 
 Similarities:
-1. Both provide tips and suggestions relating to reviews being "discussions"
-2. Provide clear guidelines
+1. Both companies stress the importance of clear communication during the code review process.
+2. Both sets of guidelines emphasize the importance of respecting others and providing actionable feedback without personal criticism.
 
 Differences:
-1. Microsofts golden rule is respecting others
-2. Yelp focuses more on the actual action of reviewing
-3. Microsofts emoji reviews
+1. Yelp's guidelines are focused on a broader engineering organization, whereas Microsoft's guidelines are specific to the Visual Studio Mobile team
+2. Microsoft's guidelines specifically mention the use of automatic linters like Rubocop, StyleCop, TSLint, and ESLint.
+3. Microsofts emoji reviews are different and unique
 
 
 2. https://codereview.stackexchange.com/questions/118830/find-the-number-closest-to-0-breaking-ties-in-favor-of-positive-numbers
 
-I found this code review very helpful as it went into detail and the discussions were not making fun at the original user. It gave a critique and a bad example
+I found this code review very helpful as it went into detail. It gave a bad example, a critique, and a possible solution to broaden the knowledge of any reader. This is a good review since it respects and provides constructive feedback on what to do and what not to do, as well as communicates how to fix the code.
 
-3.
-https://codereview.stackexchange.com/questions/127552/portable-periodic-one-shot-timer-thread-follow-up
+3. https://codereview.stackexchange.com/questions/33380/i-need-code-review-on-using-singleton-to-access-local-database
 
-this one is not as good as it provides less feedback and is not as descriptive, stating that the user is doing something wrong and not going into much detail.
+This one is not as good as it provides less feedback and is not as descriptive, stating that the user is doing something wrong and not going into much detail.
+It states that "you should never have instance variables in your interface declaration," but doesn't point out where that is happening or why not. It is not disrespectful or anything, but it isn't as constructive as it could be.
